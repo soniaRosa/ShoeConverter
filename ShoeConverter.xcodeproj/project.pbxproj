@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		46BA3D6F1AA0F3E10026B092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BA3D6E1AA0F3E10026B092 /* AppDelegate.swift */; };
 		46BA3D711AA0F3E10026B092 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BA3D701AA0F3E10026B092 /* ViewController.swift */; };
-		46BA3D741AA0F3E10026B092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46BA3D721AA0F3E10026B092 /* Main.storyboard */; };
 		46BA3D761AA0F3E10026B092 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46BA3D751AA0F3E10026B092 /* Images.xcassets */; };
 		46BA3D791AA0F3E10026B092 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46BA3D771AA0F3E10026B092 /* LaunchScreen.xib */; };
 		46BA3D851AA0F3E20026B092 /* ShoeConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46BA3D841AA0F3E20026B092 /* ShoeConverterTests.swift */; };
+		D2DAB44E1AB0AFB700DCB5DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DAB44D1AB0AFB700DCB5DF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +30,12 @@
 		46BA3D6D1AA0F3E10026B092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46BA3D6E1AA0F3E10026B092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46BA3D701AA0F3E10026B092 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		46BA3D731AA0F3E10026B092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46BA3D751AA0F3E10026B092 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		46BA3D781AA0F3E10026B092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		46BA3D7E1AA0F3E20026B092 /* ShoeConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoeConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46BA3D831AA0F3E20026B092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46BA3D841AA0F3E20026B092 /* ShoeConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeConverterTests.swift; sourceTree = "<group>"; };
+		D2DAB44D1AB0AFB700DCB5DF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 			children = (
 				46BA3D6E1AA0F3E10026B092 /* AppDelegate.swift */,
 				46BA3D701AA0F3E10026B092 /* ViewController.swift */,
-				46BA3D721AA0F3E10026B092 /* Main.storyboard */,
+				D2DAB44D1AB0AFB700DCB5DF /* Main.storyboard */,
 				46BA3D751AA0F3E10026B092 /* Images.xcassets */,
 				46BA3D771AA0F3E10026B092 /* LaunchScreen.xib */,
 				46BA3D6C1AA0F3E10026B092 /* Supporting Files */,
@@ -192,7 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46BA3D741AA0F3E10026B092 /* Main.storyboard in Resources */,
+				D2DAB44E1AB0AFB700DCB5DF /* Main.storyboard in Resources */,
 				46BA3D791AA0F3E10026B092 /* LaunchScreen.xib in Resources */,
 				46BA3D761AA0F3E10026B092 /* Images.xcassets in Resources */,
 			);
@@ -236,14 +236,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		46BA3D721AA0F3E10026B092 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				46BA3D731AA0F3E10026B092 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		46BA3D771AA0F3E10026B092 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -407,6 +399,7 @@
 				46BA3D8A1AA0F3E20026B092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46BA3D8B1AA0F3E20026B092 /* Build configuration list for PBXNativeTarget "ShoeConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +408,7 @@
 				46BA3D8D1AA0F3E20026B092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
